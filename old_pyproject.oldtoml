@@ -1,0 +1,24 @@
+[project]
+name = "psp"
+version = "0.1.0"
+description = "Drug Discovery and Healthcare AI tools and projects"
+authors = [
+    {name = "Akshay Kakar",email = "akshaykakar@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "pandas>=2.3.3,<3.0.0",
+    "requests>=2.32.5,<3.0.0",
+    "jupyter>=1.1.1,<2.0.0",
+    "ipykernel>=6.30.1,<7.0.0",
+    "transformers>=4.56.2,<5.0.0",
+    "torch>=2.8.0,<3.0.0",
+    "huggingface-hub[hf-xet]>=0.35.3,<0.36.0"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

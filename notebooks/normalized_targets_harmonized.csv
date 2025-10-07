@@ -1,0 +1,21 @@
+original,normalized_name,database,id,score,official_name,harmonized_name
+insulin,"Term(insulin,insulin,HGNC,6081,INS,curated,famplex,9606,None,None)",HGNC,6081,1.0,,HGNC:6081
+leptin,"Term(leptin,leptin,HGNC,6553,LEP,curated,famplex,9606,None,None)",MESH,D020738,1.0,,MESH:D020738
+ampk,"Term(ampk,AMPK,FPLX,AMPK,AMPK,curated,famplex,None,None,None)",FPLX,AMPK,0.984539270253556,,FPLX:AMPK
+glp - 1,"Term(glp 1,GLP 1,CHEBI,CHEBI:80270,Glucagon-like peptide 1,synonym,mesh,None,MESH,D052216)",CHEBI,CHEBI:80270,0.5400948258091115,,CHEBI:CHEBI:80270
+fto,"Term(fto,FTO,HGNC,24678,FTO,name,hgnc,9606,None,None)",UP,Q9C0B1,0.7066584209441352,,UP:Q9C0B1
+hba1c,"Term(hba1c,HBA1C,MESH,D006442,Glycated Hemoglobin,synonym,efo,None,EFO,0004541)",EFO,0004541,0.5023706452277881,,EFO:0004541
+g,"Term(g,-G-,CHEBI,CHEBI:50324,guanosine 5'-monophosphate residue,synonym,chebi,None,None,None)",CHEBI,CHEBI:50324,0.549165120593692,,CHEBI:CHEBI:50324
+h,"Term(h,h,CHEBI,CHEBI:30220,helion,synonym,chebi,None,None,None)",CHEBI,CHEBI:30220,0.5555555555555556,,CHEBI:CHEBI:30220
+glp - 1 ras,,,,,,
+ucp1,"Term(ucp1,UCP1,HGNC,12517,UCP1,name,hgnc,9606,None,None)",HGNC,12517,0.7245928674500104,,HGNC:12517
+sirt1,"Term(sirt1,SIRT1,HGNC,14929,SIRT1,curated,famplex,9606,None,None)",HGNC,14929,0.9468150896722326,,HGNC:14929
+pparγ,"Term(pparγ,PPAR-γ,HGNC,9236,PPARG,curated,famplex,9606,None,None)",UP,P37231,0.9936095650381365,,UP:P37231
+il - 6,,,,,,
+adiponectin,"Term(adiponectin,adiponectin,HGNC,13633,ADIPOQ,curated,famplex,9606,None,None)",MESH,D052242,1.0,,MESH:D052242
+tnf - α,,,,,,
+glucagon - like peptide - 1 receptor,"Term(glucagon like peptide 1 receptor,glucagon like peptide 1 receptor,HGNC,4324,GLP1R,name,hgnc,9606,None,None)",HGNC,4324,0.7623170480313337,,HGNC:4324
+mtor,"Term(mtor,mTOR,HGNC,3942,MTOR,curated,famplex,9606,None,None)",UP,P42345,0.9659863945578232,,UP:P42345
+s,"Term(s,s,CHEBI,CHEBI:36368,strange quark,synonym,chebi,None,None,None)",CHEBI,CHEBI:36368,0.5555555555555556,,CHEBI:CHEBI:36368
+glp - 1 receptor,"Term(glp 1 receptor,GLP 1 Receptor,HGNC,4324,GLP1R,synonym,mesh,None,MESH,D000067757)",HGNC,4324,0.5400948258091115,,HGNC:4324
+ldl - c,,,,,,
