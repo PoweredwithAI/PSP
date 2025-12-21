@@ -3,7 +3,7 @@ Pioneer Spirit Platform - AI tools for Drug Discovery and Healthcare Application
 
 # Introduction
 PSP hosts *multiple* demonstration apps and AI models. Current version integrations: 
-- TargetScraper v1.0   
+- TargetScraper v1.0 [https://targetscraper.streamlit.app/](https://targetscraper.streamlit.app/)  
   - Mines Europe PMC literature for drug targets associated with user-specified disease. 
   - Links targets from UniProt and articles related to selected target for easier access.  
   - User control over publication years, number of articles to be checked and number of different targets to be presented   
@@ -70,7 +70,7 @@ $ # TargetScraper (current)
 $ streamlit run src/targetscraper/app.py
 
 ```
-**Live Demo:** [<link to live demo>](https://poweredwithai-target-scraper-srctargetscraperapp-qzzprh.streamlit.app/)
+**Live Demo:** [https://targetscraper.streamlit.app/](https://targetscraper.streamlit.app/)
 
 ##  :wrench: Development
 Would love collaborators
