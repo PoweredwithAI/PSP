@@ -14,19 +14,17 @@ PSP hosts *multiple* demonstration apps and AI models. Current version integrati
 - [About](#beginner-about)
 - [Usage](#zap-usage)
   - [Installation](#electric_plug-installation)
-  - [Commands](#package-commands)
+  - [Apps](#Apps)
 - [Development](#wrench-development)
   - [Pre-Requisites](#notebook-pre-requisites)
   - [Developmen Environment](#nut_and_bolt-development-environment)
   - [File Structure](#file_folder-file-structure)
   - [Build](#hammer-build)  
   - [Deployment](#rocket-deployment)  
+  - [Roadmap](#roadmap-roadmap)
 - [Community](#cherry_blossom-community)
   - [Contribution](#fire-contribution)
-  - [Branches](#cactus-branches)
-  - [Guideline](#exclamation-guideline)  
 - [FAQ](#question-faq)
-- [Resources](#page_facing_up-resources)
 - [Gallery](#camera-gallery)
 - [Credit/Acknowledgment](#star2-creditacknowledgment)
 - [License](#lock-license)
@@ -43,7 +41,6 @@ Current Apps (v1.0)
 | 🏥 Clinical Guidelines| Protocols + Patient Population + CPT Codes     | ➡️ v2.0 | Under Development |
 | 💊 AI Hit Library | LSTM based SMILES generative modeling    | ➡️ v2.0 | Developed for generating Anti-Obesity hits with polypharmacology against multiple targets, not integrated into App | 
 | 💊 AI Hit Library | S4 based SMILES generative modeling    | ➡️ v2.0 | ➡️ v2.0 of App| 
-
 | 🧪 EC50 Prediction | RM Ensemble based binding affinity prediction   | ➡️ v2.0 | Developed, not integrated into App |
 | 🔬 Boltz2 Integration | Boltz2 based ligand docking and protein strucutre prediction   | ➡️ v2.0 | Developed, not integrated into App | 
 | 🤖 RetroSynthesis models | Transformer based retrosynthesis prediction   | ➡️ v2.0 | Developed, not integrated into App | 
@@ -152,10 +149,11 @@ A: Demo quality (v1.0).
 ##  :camera: Gallery
 
 ### TargetScraper (v1.0)
+
 ![TargetScraper Home](assets/screenshots/targetscraper-home.png)
 *Clean interface ready for mining*
 
-![TargetScraper Results](assets/screenshots/targetscraper-results.png)
+![TargetScraper Results](assets/screenshots/targetscraper-result1.png)
 *Article mentioning obesity targets (2023-2025, 200 articles)*
 
 ![TargetScraper Results](assets/screenshots/targetscraper-results2.png)
@@ -165,7 +163,18 @@ A: Demo quality (v1.0).
 *Article links for target P32301 (GLPR)*
 
 ### Apps developed but not integrated (v1.0)
-![Platform walkthrough](https://www.youtube.com/watch?v=qcCzyao6460)
+
+🔬 Full Drug Discovery Platform (Standalone Demo)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qcCzyao6460" title="PSP Drug Discovery Walkthrough" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe> ``` 
+*7:24 walkthrough: Hit generation → t-SNE → Retrosynthesis → Boltz-2 docking*
+
+**Key Features Demonstrated:**
+
+- Hit Generation: 174 anti-obesity candidates (GLP-1/GIP/Glucagon polypharmacology)
+- t-SNE Explorer: Chemical space navigation + EC50 predictions
+- Retrosynthesis: Transformer model (USPTO + 1B reactions)
+- Boltz-2 Integration: Diffusion-based protein docking (10 min/candidate)
 
 ## :star2: Credit/Acknowledgment
 
