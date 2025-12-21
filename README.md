@@ -166,7 +166,7 @@ A: Demo quality (v1.0).
 
 🔬 Full Drug Discovery Platform (Standalone Demo)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qcCzyao6460" title="PSP Drug Discovery Walkthrough" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe> ``` 
+[![Walkthrough](https://img.youtube.com/vi/qcCzyao6460/0.jpg)](https://www.youtube.com/watch?v=qcCzyao6460) 
 *7:24 walkthrough: Hit generation → t-SNE → Retrosynthesis → Boltz-2 docking*
 
 **Key Features Demonstrated:**
