@@ -96,16 +96,18 @@ def main():
     st.divider()
     col1, col2, col3 = st.columns([1, 2, 1])
     
-    with col1:
-        st.markdown("**🔗 [GitHub](https://github.com/yourusername/targetscraper)**")
+    with col3:
+        st.markdown('<p style="text-align: right; font-weight: bold;">Contact</p>', unsafe_allow_html=True)
+        st.markdown('<p style="font-size: 14px;text-align: right">🔗 <a href="https://github.com/PoweredwithAI/PSP">GitHub Repository</a></p>', unsafe_allow_html=True)
+        st.markdown('<p style="font-size: 14px;text-align: right">🔗 <a href="https://www.linkedin.com/in/akakar/">My LinkedIn</a></p>', unsafe_allow_html=True)
     
     with col2:
-        st.markdown("**🙏 Europe PMC + UniProt + Streamlit**")
+        st.markdown('<p style="text-align: center; font-weight: bold;">🙏 Europe PMC + UniProt</p>', unsafe_allow_html=True)
     
-    with col3:
+    with col1:
         st.markdown("**🎯 Literature-based target discovery**")
     
-    st.caption("v1.0 | Built for drug discovery research")
+    st.caption("v1.0 | Pioneer Spirit Platform - AI Solutions built for drug discovery and digital health research")
 
 # Clear button (keep at end)
     with st.sidebar:
