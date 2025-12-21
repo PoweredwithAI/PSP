@@ -153,10 +153,10 @@ A: Demo quality (v1.0).
 ![TargetScraper Home](assets/screenshots/targetscraper-home.png)
 *Clean interface ready for mining*
 
-![TargetScraper Results](assets/screenshots/targetscraper-result1.png)
+![TargetScraper Results1](assets/screenshots/targetscraper-result1.png)
 *Article mentioning obesity targets (2023-2025, 200 articles)*
 
-![TargetScraper Results](assets/screenshots/targetscraper-results2.png)
+![TargetScraper Results2](assets/screenshots/targetscraper-results2.png)
 *Top obesity targets ranked by article mentions (2023-2025, 200 articles, 50 top common targets) + UniProt integration*
 
 ![TargetScraper Detail](assets/screenshots/targetscraper-detail.png)
@@ -166,7 +166,8 @@ A: Demo quality (v1.0).
 
 🔬 Full Drug Discovery Platform (Standalone Demo)
 
-[![Walkthrough](https://img.youtube.com/vi/qcCzyao6460/0.jpg)](https://www.youtube.com/watch?v=qcCzyao6460) 
+[![Other Apps Walkthrough](https://img.youtube.com/vi/qcCzyao6460/0.jpg)](https://www.youtube.com/watch?v=qcCzyao6460) 
+
 *7:24 walkthrough: Hit generation → t-SNE → Retrosynthesis → Boltz-2 docking*
 
 **Key Features Demonstrated:**
