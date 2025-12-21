@@ -70,7 +70,7 @@ $ # TargetScraper (current)
 $ streamlit run src/targetscraper/app.py
 
 ```
-**Live Demo:** <link to live demo>
+**Live Demo:** [<link to live demo>](https://poweredwithai-target-scraper-srctargetscraperapp-qzzprh.streamlit.app/)
 
 ##  :wrench: Development
 Would love collaborators
