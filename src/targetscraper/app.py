@@ -69,11 +69,11 @@ def main():
     st.title("🧬 Target Explorer")
     st.markdown("**Annotated from Europe PMC**", unsafe_allow_html=True)
     st.markdown("**Targets as reported in research in specified years**", unsafe_allow_html=True)
-    st.markdown("**For target prioritization, key criteria analyzed:**", unsafe_allow_html=True)
-    st.markdown("**- **Disease Linkage**: Genetic evidence, clinical associations, pathway involvement.**", unsafe_allow_html=True)
-    st.markdown("**- **Validation Strength**: Experimental validation, functional studies, expression data.**", unsafe_allow_html=True)
-    st.markdown("**- **Druggability Safety**: Known druggability, safety profiles, toxicity data.**", unsafe_allow_html=True)
-    st.markdown("**- **Novelty Prioritization**: Novelty score, uniqueness of target, innovation potential.**", unsafe_allow_html=True)        
+    st.markdown("For target prioritization, key criteria analyzed:", unsafe_allow_html=True)
+    st.markdown("- **Disease Linkage**: Genetic evidence, clinical associations, pathway involvement.", unsafe_allow_html=True)
+    st.markdown("- **Validation Strength**: Experimental validation, functional studies, expression data.", unsafe_allow_html=True)
+    st.markdown("- **Druggability Safety**: Known druggability, safety profiles, toxicity data.", unsafe_allow_html=True)
+    st.markdown("- **Novelty Prioritization**: Novelty score, uniqueness of target, innovation potential.", unsafe_allow_html=True)        
 
     # Initialize session state
     if 'df_articles' not in st.session_state:
@@ -88,7 +88,7 @@ def main():
         query = st.text_input("", value="obesity targets", label_visibility="collapsed")
         from_year = st.sidebar.number_input("📅 From year", min_value=1900, max_value=2100, value=2023, step=1)
         to_year = st.sidebar.number_input("📅 To year", min_value=1900, max_value=2100, value=2025, step=1)
-        max_results = st.sidebar.number_input("📈 Max results", min_value=10, max_value=5000, value=20, step=10)
+        max_results = st.sidebar.number_input("📈 Max results", min_value=10, max_value=50000, value=20, step=10)
 
         top_k = st.sidebar.number_input("🎯 Top targets (K)", min_value=1, max_value=500, value=50, step=5)
 
