@@ -230,9 +230,15 @@ def main():
 This section will let you assess the target information across these selected articles across four categories: **Disease Linkage**, **Validation Strength**, **Druggability Safety**, and **Novelty Prioritization**.  
 The current model uses Google's Gemini LLM Stack to analyze the articles.
 
+Key criteria analyzed:
+- **Disease Linkage**: Genetic evidence, clinical associations, pathway involvement, .
+- **Validation Strength**: Experimental validation, functional studies, expression data.
+- **Druggability Safety**: Known druggability, safety profiles, toxicity data.
+- **Novelty Prioritization**: Novelty score, uniqueness of target, innovation potential.
+
 For running this section, please use a **Google AI Studio API key** as input. Google's free version will allow testing of ~15 articles before limits. You can enter your paid API key without any hesitation. The code will **not store this key beyond your run**. You can always create a key for this application and delete it.
 
-For customization to prompt questions or tech stack, or deployment at your site, please contact us.
+For customization to criteria or tech stack, or deployment at your site, please contact us.
             """,
             unsafe_allow_html=False,
         )
