@@ -1,7 +1,7 @@
 [project]
 name = "targetscraper"
 version = "0.1.0"
-description = "Package to extract targets (Genes / Proteins) associated with particular term from research publications at European PMC"
+description = "Package to extract targets (Genes / Proteins) associated with user input from research publications at European PMC and use Gemini to help prioritize targets."
 authors = [
     {name = "Akshay Kakar",email = "akshaykakar@gmail.com"}
 ]
@@ -10,10 +10,19 @@ license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.12.4"
 dependencies = [
-    "tqdm>=4.0",
-    "pandas>=2.0",
+    # Core
     "requests>=2.0",
+    "tqdm>=4.0",
+
+    # Data stack (pin to avoid numpy 2.x breakage)
+    "numpy>=1.24,<2.0",
+    "pandas>=2.0,<2.3",
+
+    # App/UI
     "streamlit>=1.0",
+
+    # LLM
+    "google-genai>=0.4.0",
 ]
 
 [project.scripts]
