@@ -65,9 +65,15 @@ def build_targets_df(_df_articles: pd.DataFrame, _top_k: int, _query: str, _from
     return pd.DataFrame(rows)
 
 def main():
-    st.set_page_config(page_title="Target Explorer", layout="wide")
+    st.set_page_config(page_title="Target Explorer - Discovery and Validation", layout="wide")
     st.title("🧬 Target Explorer")
     st.markdown("**Annotated from Europe PMC**", unsafe_allow_html=True)
+    st.markdown("**Targets as reported in research in specified years**", unsafe_allow_html=True)
+    st.markdown("**For target prioritization, key criteria analyzed:**", unsafe_allow_html=True)
+    st.markdown("**- **Disease Linkage**: Genetic evidence, clinical associations, pathway involvement.**", unsafe_allow_html=True)
+    st.markdown("**- **Validation Strength**: Experimental validation, functional studies, expression data.**", unsafe_allow_html=True)
+    st.markdown("**- **Druggability Safety**: Known druggability, safety profiles, toxicity data.**", unsafe_allow_html=True)
+    st.markdown("**- **Novelty Prioritization**: Novelty score, uniqueness of target, innovation potential.**", unsafe_allow_html=True)        
 
     # Initialize session state
     if 'df_articles' not in st.session_state:
@@ -392,7 +398,7 @@ For customization to criteria or tech stack, or deployment at your site, please 
         st.markdown('<p style="text-align: center; font-weight: bold;">🙏 Europe PMC + UniProt</p>', unsafe_allow_html=True)
     
     with col1:
-        st.markdown("**🎯 Literature-based target discovery**")
+        st.markdown("**🎯 Literature-based target discovery and prioritization**")
     
     st.caption("v1.0 | Pioneer Spirit Platform - AI Solutions built for drug discovery and digital health research")
 
