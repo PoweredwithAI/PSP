@@ -1,3 +1,4 @@
 # existing ignores...
 
-backup/
+Backups/
+notebooks/
