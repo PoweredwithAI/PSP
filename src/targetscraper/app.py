@@ -1,5 +1,7 @@
 import streamlit as st
+import hashlib
 import pandas as pd
+from targetscraper.auth import check_password
 from targetscraper.d01_data.load_data import fetch_epmc_articles
 from targetscraper.d03_processing.create_master_table import build_top_targets_from_epmc
 from targetscraper.d04_postprocessing.analysis import analyze_articles, corpus_to_df, per_article_long
@@ -66,6 +68,13 @@ def build_targets_df(_df_articles: pd.DataFrame, _top_k: int, _query: str, _from
 
 def main():
     st.set_page_config(page_title="Target Explorer - Discovery and Validation", layout="wide")
+    if not check_password():
+        st.stop()
+    st.sidebar.markdown(f"👤 **Logged in as:** {st.session_state['current_user']}")
+    if st.sidebar.button("🚪 Logout"):
+        for key in list(st.session_state.keys()):
+            del st.session_state[key]
+        st.rerun()
     st.title("🧬 Target Explorer")
     st.markdown("**Annotated from Europe PMC**", unsafe_allow_html=True)
     st.markdown("**Targets as reported in research in specified years**", unsafe_allow_html=True)
